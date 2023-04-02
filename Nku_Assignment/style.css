@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-image: url(images/bal3.jpg);
+
+   }
+header{
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:transparent;
+    width: 100%;
+}
+header .logo{
+    justify-content: space-around;
+    padding: 90px;
+
+
+}
+header .logo a{
+    justify-content: space-between;
+    margin-right: 70px;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 200px;
+}
+ul li a{
+    padding:0 20px;
+    text-decoration:none;
+    color:black;
+    display: inline-block;
+    font-size: large;
+}
+li a::after{
+    content:"";
+    display: block;
+    height: 4px;
+    width:0; 
+    background:rgb(9, 0, 128);
+    transition:all .5s;
+}
+li a:hover::after{
+    width:100%;
+}
+#content{
+    object-fit: cover;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+#write{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+#write h2{
+    margin-left: 230px;
+    font-size: 40px;
+    font-style: italic;
+}
+#write p{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 25px;
+    color: black;
+}
+#btn{
+    margin: 0% auto;
+}
+.contain-footer{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    font-weight: 500;
+    font-size: medium;
+    margin-top: 250px;
+    padding: 40px;
+}
+.contain-footer .manage{
+    margin-right: 30px;
+}
+.contain-footer .man{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
